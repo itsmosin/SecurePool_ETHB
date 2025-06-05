@@ -123,14 +123,6 @@ npx hardhat verify <CONTRACT_ADDRESS> --network neondevnet
 - **Cross-Runtime Claims**: Process claims across different execution environments
 - **Hybrid Liquidity**: Combine EVM and Solana liquidity sources
 
-## 📊 Contract Addresses (Neon DevNet)
-
-Update these after deployment:
-
-- **Insurance Contract**: `TBD`
-- **Mock ERC20 Token**: `TBD`
-- **Neon Composability Contract**: `TBD`
-
 ## 🔍 Testing
 
 ### Manual Testing
@@ -177,13 +169,6 @@ This project demonstrates **advanced DeFi use case of Neon's composability libra
 **Migrated Version**: SecurePool on Neon EVM (this repository)
 
 ## 🛠️ Development Notes
-
-### Migration Changes
-
-1. **Removed**: Metal API integrations, Base Network configuration
-2. **Added**: Neon EVM Hardhat setup, composability contracts
-3. **Updated**: Frontend to use ethers.js with Neon RPC
-4. **Enhanced**: Cross-runtime functionality demonstrations
 
 ### Future Enhancements
 
